@@ -2,9 +2,9 @@
     <section class="m-top">
         <el-row>
             <el-col :span="24">
-                <section class="title">
+                <div class="title">
                     <h1>仲企创业服务平台</h1>
-                </section>
+                </div>
             </el-col>
         </el-row>
     </section>

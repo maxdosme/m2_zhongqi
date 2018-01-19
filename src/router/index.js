@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import index from '@/components/page/pageIndex'
-import zc from '@/components/page/zc'
+import index from '@/components/index/pageIndex.vue'
+import zc from '@/components/zc/zc.vue'
 
 Vue.use(Router)
 
