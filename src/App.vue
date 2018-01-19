@@ -1,12 +1,17 @@
 <template>
   <div id="app">
+    <pageHead></pageHead>
     <router-view/>
   </div>
 </template>
 
 <script>
+import pageHead from '@/common/index/head.vue';
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    pageHead
+  }
 }
 </script>
 
