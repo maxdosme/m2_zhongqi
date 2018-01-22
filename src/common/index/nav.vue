@@ -2,24 +2,34 @@
    <div class="bottomNav">
         <el-row class="nav">
           <el-col :xs="6">
-              <i class="icon iconfont icon-home"></i>
-              <p>首页</p>
+              <div>
+                <i class="icon iconfont icon-home"></i>
+                <p>首页</p>
+              </div>
           </el-col>
            <el-col :xs="6">
-              <i class="icon iconfont icon-bianji"></i>
-              <p>注册公司</p>
+              <div>
+                <i class="icon iconfont icon-bianji"></i>
+                <p>注册公司</p>
+              </div>
           </el-col>
            <el-col :xs="6">
-              <i class="icon iconfont icon-icon-"></i>
-              <p>产业园区</p>
+              <div>
+                <i class="icon iconfont icon-icon-"></i>
+                <p>产业园区</p>
+              </div>
           </el-col>
            <el-col :xs="6">
-              <i class="icon iconfont icon-jinqian"></i>
-              <p>代理记账</p>
+              <div>
+                <i class="icon iconfont icon-jinqian"></i>
+                <p>代理记账</p>
+              </div>
           </el-col>
            <el-col :xs="6">
-              <i class="icon iconfont icon-huiyuanguanli"></i>
-              <p>我的</p>
+              <div>
+                <i class="icon iconfont icon-huiyuanguanli"></i>
+                <p>我的</p>
+              </div>
           </el-col>        
         </el-row>
     </div>
