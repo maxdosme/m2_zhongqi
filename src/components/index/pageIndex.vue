@@ -5,6 +5,85 @@
               <img src="static/image/banner.png" alt="banner">
           </div>
       </el-col>
+      <el-col :span="24">
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+          <div>内容填充</div>
+      </el-col>
     </el-row>
 </template>
 

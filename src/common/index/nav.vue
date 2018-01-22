@@ -1,0 +1,49 @@
+<template>
+   <div class="bottomNav">
+        <el-row class="nav">
+          <el-col :xs="6">
+              <i class="icon iconfont icon-home"></i>
+              <p>首页</p>
+          </el-col>
+           <el-col :xs="6">
+              <i class="icon iconfont icon-bianji"></i>
+              <p>注册公司</p>
+          </el-col>
+           <el-col :xs="6">
+              <i class="icon iconfont icon-icon-"></i>
+              <p>产业园区</p>
+          </el-col>
+           <el-col :xs="6">
+              <i class="icon iconfont icon-jinqian"></i>
+              <p>代理记账</p>
+          </el-col>
+           <el-col :xs="6">
+              <i class="icon iconfont icon-huiyuanguanli"></i>
+              <p>我的</p>
+          </el-col>        
+        </el-row>
+    </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style lang="stylus" rel="stylesheet/stylus">
+    .iconfont
+        font-size 2rem
+    .bottomNav
+        position fixed
+        bottom 0
+        width 100%
+        height 5rem
+        line-height 1.8rem
+        background-color #ffffff
+        .nav
+            margin-top 0.8333rem
+        & .nav .el-col-xs-6
+            width 20%;
+            text-align center
+</style>

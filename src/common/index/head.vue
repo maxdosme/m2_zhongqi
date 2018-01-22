@@ -26,4 +26,5 @@ export default {
             line-height 5.5rem
             font-size 2rem
             color #fff
+            text-align center
 </style>
