@@ -52,6 +52,7 @@ export default {
         line-height 1.8rem
         background-color #ffffff
         .nav
+            height 100%
             margin-top 0.8333rem
         & .nav .el-col-xs-6
             width 20%;

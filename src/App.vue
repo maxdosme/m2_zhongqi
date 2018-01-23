@@ -5,7 +5,7 @@
     <bottomNav></bottomNav>
   </div>
 </template>
-
+~
 <script>
 import pageHead from '@/common/index/head.vue';
 import bottomNav from '@/common/index/nav.vue';
