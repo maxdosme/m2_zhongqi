@@ -2,16 +2,16 @@
    <div class="bottomNav">
         <el-row class="nav">
           <el-col :xs="6">
-              <div>
+              <router-link to="/" tag="div">
                 <i class="icon iconfont icon-home"></i>
                 <p>首页</p>
-              </div>
+              </router-link>
           </el-col>
            <el-col :xs="6">
-              <div>
+              <router-link to="/zc" tag="div">
                 <i class="icon iconfont icon-bianji"></i>
                 <p>注册公司</p>
-              </div>
+              </router-link>
           </el-col>
            <el-col :xs="6">
               <div>
