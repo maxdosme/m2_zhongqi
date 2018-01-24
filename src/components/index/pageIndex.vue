@@ -19,9 +19,9 @@
                         </div>
                     </div>
                 </el-col>
-                <el-col :span="3"></el-col>
             </el-row>
         </div>
+        <hr class="g-hr" />
     </div>
 </template>
 
@@ -30,6 +30,10 @@ export default {}
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+    .g-hr
+        width 90%
+        border-top 1px solid #f0f0f0
+        margin 0 auto
     .banner
         width 100%
         background-color #fff
@@ -45,6 +49,7 @@ export default {}
                 float left
                 font-size 6.5rem
                 margin-right .5rem
+                color #1a78d6
             & h3
                 float left
                 font-size 2.4rem
@@ -53,6 +58,7 @@ export default {}
                 float left
                 font-size 1.4rem
                 line-height 3rem
+                color #999
             .cont1_right
                 position absolute
                 right 1rem
