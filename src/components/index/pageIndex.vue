@@ -21,7 +21,29 @@
                 </el-col>
             </el-row>
         </div>
-        <hr class="g-hr" />
+        <div class="line"></div>
+        <div class="index_cont2">
+            <el-row>
+              <el-col :span="8">
+                  <div class="cont2-box">
+                      <h3>至今已注册</h3>
+                      <p>8,389<span>家</span></p>
+                  </div>
+              </el-col>
+              <el-col :span="8">
+                  <div class="cont2-box">
+                      <h3>今日已注册</h3>
+                      <p>9<span>家</span></p>
+                  </div>
+              </el-col>
+              <el-col :span="8">
+                  <div class="cont2-box">
+                      <h3>30天注册</h3>
+                      <p>389<span>家</span></p>
+                  </div>
+              </el-col>
+            </el-row>
+        </div>
     </div>
 </template>
 
@@ -30,7 +52,7 @@ export default {}
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-    .g-hr
+    .line
         width 90%
         border-top 1px solid #f0f0f0
         margin 0 auto
@@ -43,6 +65,7 @@ export default {}
         position relative
         height 7.3333rem
         padding-top 2rem
+        background-color #ffffff
         .cont1_box
             position relative
             & .icon-wpml
@@ -66,4 +89,14 @@ export default {}
                 & .icon-you
                     font-size 3rem
                     line-height 5rem
+    .index_cont2
+        position relative
+        height 7.3333rem
+        background-color #fff
+        .cont2-box
+            position relative 
+            height 5rem
+            line-height 2rem
+            text-align center
+            margin-top 2.3333rem
 </style>
