@@ -32,7 +32,7 @@
               </el-col>
               <el-col :span="8">
                   <div class="cont2-box">
-                      <h3>今日已注册</h3>
+                      <h3>今日注册</h3>
                       <p>9<span>家</span></p>
                   </div>
               </el-col>
@@ -44,6 +44,16 @@
               </el-col>
             </el-row>
         </div>
+        <div class="index_cont3">
+            <el-row>
+              <el-col :span="24">
+                  <div class="index_title">
+                          <i class="icon iconfont icon-msnui-hot"></i>
+                          <h2>热门园区</h2>
+                      </div>
+              </el-col>
+            </el-row>
+        </div>
     </div>
 </template>
 
@@ -52,6 +62,24 @@ export default {}
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+    .index_title
+        position relative
+        height 5rem
+        background-color #f5f5f5
+        & .icon-msnui-hot
+            display block
+            float left 
+            font-size 2.8rem
+            color #fd7001
+            margin 0 .5rem 0 1.25rem
+            height 5rem
+            line-height 5rem
+        & h2
+            display block
+            float left 
+            font-size 1.8rem
+            height 5rem
+            line-height 5rem
     .line
         width 90%
         border-top 1px solid #f0f0f0
@@ -91,12 +119,28 @@ export default {}
                     line-height 5rem
     .index_cont2
         position relative
-        height 7.3333rem
+        height 100%
         background-color #fff
+        border-bottom 1px solid #e5e5e5
+        padding-bottom 1.8rem
         .cont2-box
             position relative 
-            height 5rem
             line-height 2rem
             text-align center
-            margin-top 2.3333rem
+            margin-top 1.5rem
+            & h3
+                font-size 1.4rem
+                width 100%
+                color #a6a6a6
+                line-height 4rem
+            & p
+                font-size 2.5rem
+                width 100%
+                color #1a78d6
+            & span 
+                font-size 1.5rem
+                color #a6a6a6
+    .index_cont3
+        position relative
+        background-color #f5f5f5        
 </style>
