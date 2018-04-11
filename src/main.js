@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import $ from 'jquery';
 import elementUi from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'common/stylus/index.styl';
