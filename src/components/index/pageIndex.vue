@@ -132,19 +132,99 @@
                   </div>
               </el-col>
             </el-row>
-            
             <el-row>
-              <el-col :span="24">填充</el-col>
-              <el-col :span="24">填充</el-col>
-              <el-col :span="24">填充</el-col>
-              <el-col :span="24">填充</el-col>
-              <el-col :span="24">填充</el-col>
-              <el-col :span="24">填充</el-col>
-              <el-col :span="24">填充</el-col>
-              <el-col :span="24">填充</el-col>
-              <el-col :span="24">填充</el-col>
+              <el-col :span="24">
+                  <div class="index_contLine"></div>
+              </el-col>
+            </el-row>
+            <el-row>
+              <el-col :span="24">
+                  <div class="park_more">
+                      <a href="">查看所有园区 <i class="icon iconfont icon-youjiantou"></i></a>
+                  </div>
+              </el-col>
             </el-row>
         </div>
+        <div class="index_cont4">
+            <el-row>
+              <el-col :span="24">
+                  <div class="index_title_white">
+                          <i class="icon iconfont icon-tongzhi"></i>
+                          <h2>重要通知</h2>
+                    </div>
+              </el-col>
+            </el-row>
+            <el-row>
+              <el-col :span="24">
+                  <div class="cont4_info">
+                      <div class="c4_infoBox">
+                        <h3>重要！2017年度工商年报</h3>
+                        <p>2018年1月1日开始，你做好了吗？</p>
+                        <a>立即办理</a>
+                      </div>
+                  </div>
+              </el-col>
+            </el-row>
+            <el-row>
+              <el-col :span="24">
+                  <div class="index_contLine"></div>
+              </el-col>
+            </el-row>
+        </div>
+        <div class="index_cont5">
+            <el-row>
+              <el-col :span="24">
+                  <div class="index_title_white">
+                          <i class="icon iconfont icon-qianbi"></i>
+                          <h2>税务策划</h2>
+                    </div>
+              </el-col>
+            </el-row>
+            <el-row>
+              <el-col :span="24">
+                <div class="cont5_info">
+                    <div class="ct5_infoBox">
+                        <h3>做对账 缴对税</h3>
+                        <p>企小满税务策划节税效果50%以上</p>
+                    </div>
+                    <a href="" class="sw_btn"></a>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row>
+              <el-col :span="24">
+                  <div class="index_contLine"></div>
+              </el-col>
+            </el-row>
+        </div>
+        <div class="index_cont6">
+            <el-row>
+              <el-col :span="24">
+                  <div class="index_title_white">
+                          <i class="icon iconfont icon-tongzhi"></i>
+                          <h2>重要通知</h2>
+                    </div>
+              </el-col>
+            </el-row>
+        </div>
+
+        <el-row>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+          <el-col :span="24">填充</el-col>
+        </el-row>
     </div>
 </template>
 
@@ -153,6 +233,7 @@ export default {}
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+@import "../../common/stylus/mixin.styl";
     .index_contLine
         display block
         height 1rem
@@ -162,6 +243,24 @@ export default {}
         height 5rem
         background-color #f5f5f5
         & .icon-msnui-hot
+            display block
+            float left 
+            font-size 2.8rem
+            color #fd7001
+            margin 0 .5rem 0 1.25rem
+            height 5rem
+            line-height 5rem
+        & h2
+            display block
+            float left 
+            font-size 1.8rem
+            height 5rem
+            line-height 5rem
+    .index_title_white
+        position relative
+        height 5rem
+        border-bottom 1px solid #e5e5e5
+        & .iconfont
             display block
             float left 
             font-size 2.8rem
@@ -268,6 +367,14 @@ export default {}
                     color #1a78d6
                     font-size 1.6rem
                     font-weight bold
+        .park_more
+            position relative
+            text-align center
+            line-height 5rem
+            background-color #f5f5f5
+            & a
+                color #1a78d6
+                font-size 1.6rem
         .park_foot_box
             position relative
             height 6rem
@@ -296,4 +403,61 @@ export default {}
                 float right
                 border-radius 3px
                 margin-top 1rem
+    .index_cont4
+        position relative
+        .cont4_info
+            position relative
+            padding 1rem
+            height auto
+            .c4_infoBox
+                position relative
+                padding 1rem
+                yb-image('yb_right.png')
+                background-size 70px 85px
+                background-repeat no-repeat
+                background-position right
+            & h3
+                font-size  2rem
+                font-weight bold
+            & p
+                font-size 1.4rem
+                margin 1rem 0 2rem 0
+                color #999999
+            & a
+                padding 0.3rem 1.5rem
+                border 2px solid #ef854c
+                border-radius 2rem
+                font-size 1.4rem
+                font-weight 600
+                color #ef854c
+                background-color #fffaf4
+    .index_cont5
+        position relative
+        .cont5_info
+            position relative 
+            height auto 
+            background-color #f6af34
+            border-radius 8px
+            padding 2rem
+            margin 1rem
+            .ct5_infoBox
+                display inline-block
+                border-right 1px solid #ffcf75
+                width 70%
+                color #ffffff
+                vertical-align top
+                & h3
+                    font-size 2rem
+                    font-weight 600
+                & p
+                    font-size 1.2rem
+                    margin-top 2rem
+            .sw_btn
+                display inline-block
+                sw-image('sw_btn.png')
+                background-repeat no-repeat
+                background-size 5.5rem
+                height 5.5rem
+                width 5.5rem
+                margin-left 1rem
 </style>
