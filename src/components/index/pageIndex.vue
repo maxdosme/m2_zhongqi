@@ -200,7 +200,7 @@
         <div class="index_cont6">
             <el-row>
               <el-col :span="24">
-                  <div class="index_title_white">
+                    <div class="index_title_white">
                           <i class="icon iconfont icon-gifs"></i>
                           <h2>公益&福利</h2>
                     </div>
@@ -229,24 +229,31 @@
               </el-col>
             </el-row>
         </div>
-
-        <el-row>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-          <el-col :span="24">填充</el-col>
-        </el-row>
+        <div class="index_cont7">
+            <el-row>
+              <el-col :span="24">
+                  <div class="ct7_cont">
+                      <div class="ct7Box_l">
+                          <img src="static/image/erweima.png" alt="二维码">
+                      </div>
+                      <div class="ct7Box_r">
+                          <h3>关注微信号</h3>
+                          <p>使用微信注册公司｜查询注册状态</p>
+                          <a href="tel:400-187-1118"><img src="static/image/wap_tel.png" class="wep_tal">400-187-1118</a>
+                      </div>
+                  </div>
+              </el-col>
+            </el-row>
+        </div>
+        <div class="index_cont8">
+            <el-row>
+              <el-col :span="24">
+                  <div class="copyright">
+                      <p>沪ICP备14019410号(c) 上海仲企创业投资管理有限公司  All Rights Reserved</p>
+                  </div>
+              </el-col>
+            </el-row>
+        </div>
     </div>
 </template>
 
@@ -525,4 +532,51 @@ export default {}
                 width 39%
                 float right
                 padding 1.5rem 1.5rem
+    .index_cont7
+        position relative
+        height 100%
+        margin-top .5rem
+        padding 10px
+        text-align center
+        .ct7_cont
+            position relative
+            .ct7Box_l
+                position relative
+                display block
+                float left
+            .ct7Box_r
+                position relative
+                display block 
+                width auto
+                & h3
+                    font-size 2rem
+                    font-weight 600
+                    color #222
+                    line-height 35px
+                & p
+                    font-size 1.4rem
+                    color #8b8a8a
+                    line-height 35px
+                & a 
+                    display inline-block
+                    font-size 1.6rem
+                    line-height 3rem
+                    width 15rem
+                    color #1881c6
+                    .wep_tal
+                        position relative
+                        width 12px
+                        left -.5rem
+    .index_cont8
+        position relative
+        background-color #f5f5f5
+        height 100%
+        .copyright
+            line-height 3.5rem
+            text-align center
+            font-size 1.1rem
+            margin-top .5rem
+            margin-bottom 6rem
+            background-color #fff
+            color #d9d9d9
 </style>
