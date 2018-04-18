@@ -201,9 +201,31 @@
             <el-row>
               <el-col :span="24">
                   <div class="index_title_white">
-                          <i class="icon iconfont icon-tongzhi"></i>
-                          <h2>重要通知</h2>
+                          <i class="icon iconfont icon-gifs"></i>
+                          <h2>公益&福利</h2>
                     </div>
+              </el-col>
+            </el-row>
+            <el-row>
+              <el-col :span="24">
+                  <div class="ct6_cont">
+                      <div class="contBox-left">
+                          <h3>为失学儿童捐赠爱心&nbsp;</h3>
+                          <p>您缴税，我捐款</p>
+                          <a>去看看</a>
+                      </div>
+                      <div class="contBox-right">
+                          <h3>为失学儿童捐赠爱心&nbsp;</h3>
+                          <p>洗车券免费送送送</p>
+                          <a>去看看</a>
+                      </div>
+                      <div style="clear:both;"></div>
+                  </div>
+              </el-col>
+            </el-row>
+            <el-row>
+              <el-col :span="24">
+                  <div class="index_contLine"></div>
               </el-col>
             </el-row>
         </div>
@@ -460,4 +482,47 @@ export default {}
                 height 5.5rem
                 width 5.5rem
                 margin-left 1rem
+    .index_cont6
+        position relative
+        .ct6_cont
+            position relative
+            display block
+            margin 2rem 1rem
+            & h3
+                font-size 1.5rem
+                font-weight 600
+            & p
+                font-size 1.2rem
+                margin-top 0.5rem
+            & a
+                display block
+                width 8rem
+                height 2.5rem
+                line-height 2.5rem
+                border-radius 2.5rem
+                border 1px solid #ffffff
+                text-align center 
+                margin-top 2rem
+                float right
+                color #fff
+            .contBox-left
+                position relative
+                display block
+                background-color #f06c62
+                border-radius 8px
+                color #fff
+                height auto
+                width 39%
+                float left
+                padding 1.5rem 1.5rem
+             .contBox-right
+                position relative
+                display block
+                background-color #54acf6
+                border-radius 8px
+                color #fff
+                height auto
+                width 39%
+                float right
+                padding 1.5rem 1.5rem
 </style>
