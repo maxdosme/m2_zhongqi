@@ -261,8 +261,8 @@
 export default {}
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
-@import "../../common/stylus/mixin.styl";
+<style lang="stylus" rel="stylesheet/stylus" scoped>
+@import "../../common/stylus/mixin.styl"
     .index_contLine
         display block
         height 1rem
