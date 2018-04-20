@@ -185,7 +185,7 @@
                 <div class="cont5_info">
                     <div class="ct5_infoBox">
                         <h3>做对账 缴对税</h3>
-                        <p>企小满税务策划节税效果50%以上</p>
+                        <p>仲企税务策划节税效果50%以上</p>
                     </div>
                     <a href="" class="sw_btn"></a>
                 </div>
