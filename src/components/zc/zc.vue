@@ -211,6 +211,7 @@ export default {
                 color #888
       .zc_foot
         position relative
+        
         border-top 1px solid #eaeaea
         border-bottom 1px solid #eaeaea
         margin-bottom 5rem
