@@ -17,11 +17,7 @@ export default new Router({
       path: '/zc',
       name: 'zc',
       component: zc
-    },
-    {
-      path: '/report',
-      name: 'report',
-      component: report
     }
+    
   ]
 })
